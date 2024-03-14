@@ -1,0 +1,115 @@
+@media(min-width: 699px){
+    .m{display: none;}
+    .pc{display: none;}
+    .tab{display: block;}
+
+    .bg {
+        width: unset;
+        position: relative;
+    }
+    .bg>img{
+        height: unset;
+        width: 100%;
+    }
+    .bn{}
+    .bn .txt h3{
+        font-size: 28px;
+    }
+    .bn .txt p{
+        font-size: 16px;
+    }
+    .s1{}
+    .s1 .wrap{
+        padding-top: 40px;
+    }
+    .s1 .wrap h3{
+        font-size: px;
+    }
+    .s1 .wrap .inner{
+        font-size: 14px;
+        max-width: 1200px;
+        text-wrap: nowrap;
+        display: flex; 
+        flex-wrap: unset;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 100%;
+
+    }
+    
+    .s1 .wrap .inner .pfi{
+        width:100%;
+        width: unset;
+        overflow: hidden;
+        width: max-content;
+        min-width: 150px;
+    }
+    .s1 .wrap .inner .pfi img{
+        max-width: 200px;
+        aspect-ratio: 1/1;
+    }
+    .s1 .wrap .inner .pfle{
+        width: unset;
+    }
+    .s1 .wrap .inner ul{}
+    .s1 .wrap .inner ul li:last-child{padding-bottom: 0;}
+    .s1 .wrap .inner ul li{
+        padding-bottom: 13px;
+    }
+    .s1 .wrap .inner ul .lif{font-weight: bold;}
+    .s1 .wrap .inner .history{
+        width: unset;
+        display: flex;
+        gap: 12px;
+    }
+    .s2 .wrap h3{
+        font-size: 28px;
+    }
+    
+    .s2 .wrap .inner{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 20px;
+        font-size: 13px;
+    }
+    .s2 .wrap .inner .con{
+        height: 200px;
+        width: max-content;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 auto;
+        gap: 12px;
+    }
+    .s2 .wrap .inner .con img{
+        width: 50px;
+        aspect-ratio: 1/1;
+    }
+    .s2 .wrap .inner .con .txt{
+        max-width: 200px;
+    }
+    .s3 .wrap .con{
+        height: 250px;
+    }
+    .s3 .wrap .con img{
+        width: 100%;
+        object-fit: cover;
+        transform: unset;
+    }
+    .s4 .wrap .inner{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        align-items: start;
+        gap: 12px;
+    }
+    .s4 .wrap .inner .image a .txt .btn{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+        flex-wrap: wrap;
+        font-size: 14px;
+    }
+    
+    
+    }/* xx */

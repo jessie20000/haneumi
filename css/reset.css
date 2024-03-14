@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    font-family: "Pretendard";
+}
+ ul, ol{
+    list-style: none;
+ }  
+
+ *::after *::before{box-sizing: border-box; display: block;}
+ a{
+    text-decoration: none;
+    color: inherit
+ }
+
+*::-webkit-scrollbar{
+   display: none;
+ }
+
+ a,img{
+   display: block;
+ }
+
+ button,input,select,option{
+    border-radius: 0; 
+    border: 0px;
+    background-color: rgba(0,0,0,0);
+    display: block;
+ }
+
+ .wrap{
+   max-width: 1200px;
+   margin: 0 auto;
+   padding: 0 20px;
+ }
+
+ #wrapper{
+    min-width: 300px;
+    overflow: hidden;
+    margin: 0 auto;
+}

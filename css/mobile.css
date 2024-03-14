@@ -1,0 +1,337 @@
+.pc{display: none;}
+.tab{display: none;}
+.m{display: block;}
+
+.bg {
+    position: relative;
+}
+.bg>img{
+    height: 600px;
+    object-fit: auto 100%;
+}
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+header .wrap{
+    display: flex;
+    position: relative;
+    height: 40px;
+    padding-bottom: 0;
+}
+
+header .wrap h1{
+    position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+}
+header .wrap h1 a img{
+    width: 120px;
+}
+header .wrap .ico-notion{
+    margin-left: auto;
+}
+header .wrap .ico-notion a{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header .wrap .ico-notion a img{
+    width: 24px;
+}
+.bn{
+    position: absolute;
+        top: 50%;
+        left: 0;
+        transform: translateY(-50%);
+    color: #fff;
+    width: 100%;
+}
+.bn .txt{}
+.bn .txt h3{
+    font-size: 24px;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 12px;
+}
+.bn .txt h3::after{
+    content: '';
+    display: block;
+    margin: 0 auto;
+    width: 20px;
+    height: 2px;
+    background-color: #bababa;
+    margin-top: 12px;
+}
+.bn .txt .m{
+    text-align: center;
+    font-weight: 100;
+}
+
+.s1{}
+.s1 .wrap{
+    padding: 20px;
+    padding-bottom: 40px;
+}
+.s1 .wrap h3{
+    font-size: 28px;
+    padding-bottom: 28px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.s1 .wrap .inner{
+    text-wrap: nowrap;
+    font-size: 13px;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 32px;
+}
+.s1 .wrap .inner .pfi{
+    border-radius: 16px;
+    overflow: hidden;
+    width: max-content;
+    margin: unset;
+}
+.s1 .wrap .inner .pfi img{
+    width: 100%;
+}
+.s1 .wrap .inner .tit{
+    width: 82.65px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.s1 .wrap .inner .pfle{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.s1 .wrap .inner ul{}
+.s1 .wrap .inner ul li{
+    padding-bottom: 13px;
+}
+.s1 .wrap .inner .history{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.s1 .wrap .inner .history .year{
+    font-size: 16px;
+    font-weight: bolder;
+    line-height: 32px;
+}
+.s1 .wrap .inner .history .year .list2{
+    color: #fff;
+}
+.s1 .wrap .inner .history .context{
+    line-height: 32px;
+}
+.s2{
+    background-color: #161616;
+    color: #fff;
+}
+.s2 .wrap{
+    padding: 20px;
+    padding-bottom: 40px;
+
+}
+.s2 .wrap h3{
+    font-size: 28px;
+    padding-bottom: 32px;
+    text-align: center;
+}
+.s2 .wrap .inner {
+    font-size: 13px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 32px;
+    justify-content: center;
+}
+.s2 .wrap .inner .con img{
+    width: 40px;
+}
+.s2 .wrap .inner .con{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 16px;
+    margin: 0 auto;
+}
+.s2 .wrap .inner .name{
+    font-weight: bold;
+    font-size: 16px;
+}
+.s2 .wrap .inner .txt{
+    max-width: 200px;
+    font-weight: 100;
+}
+
+.s3{}
+.s3 .wrap{
+    padding: 20px;
+}
+.s3 .wrap h3{
+    font-size: 28px;
+    padding-bottom: 20px;
+
+}
+.s3 .wrap .con:last-child{
+    margin-bottom: unset;
+}
+
+.s3 .wrap .con{
+    position: relative;
+    overflow: hidden;
+    border-radius: 16px;
+    margin-bottom: 20px;
+    height: 400px;
+}
+.s3 .wrap .con img{
+    transform: translate(-50%, -20%);
+}
+.s3 .wrap .con .gr{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.7), rgba(0,0,0,0));
+}
+.s3 .wrap .con .txt{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    padding: 0 20px;
+    color: #fff;
+}
+
+.s3 .wrap .con .txt h4{
+    font-size: 36px;
+    font-weight: 700;
+    padding-bottom: 16px;
+}
+.s3 .wrap .con .txt .date{
+    font-weight: 200;
+    font-size: 13px;
+    padding-bottom: 12px;
+}
+.s3 .wrap .con .txt .context{
+    font-weight: 200;
+    padding-bottom: 16px;
+    font-weight: 500;
+
+}
+.s3 .wrap .con .txt .btn{
+    width: 100%;
+    font-size: 14px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+.s3 .wrap .con .txt .btn .btn-list{
+    width: max-content;
+    border-radius: 10000px;
+    border: 1px solid #fff;
+    padding: 4px 10px;
+}
+.s4 {}
+.s4 .wrap {
+    padding-bottom: 20px;
+}
+.s4 .wrap h3 {
+    font-size: 28px;
+    padding-bottom: 20px;
+}
+.s4 .wrap .inner{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 12px;
+}
+.s4 .wrap .inner .image{
+    position: relative;
+    border-radius: 12px;
+    border: 1px solid #dedede;
+
+
+}
+.s4 .wrap .inner .image a img{
+    width: 100%;
+    border-radius: 12px;
+}
+.s4 .wrap .inner .image a .txt{
+    padding: 0 12px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    color: #fff;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background: rgba(0,0,0,0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    opacity: 0;
+}
+.s4 .wrap .inner .image a .txt:hover{
+    opacity: 1;
+}
+.s4 .wrap .inner .image a .txt .date{
+    font-weight: 100;
+    padding-bottom: 12px;
+}
+.s4 .wrap .inner .image a .txt .name{
+    font-weight: bolder;
+    font-size: 20px;
+    padding-bottom: 4px;
+}
+.s4 .wrap .inner .image a .txt .btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    flex-wrap: wrap;
+    font-size: 12px;
+}
+.s4 .wrap .inner .image a .txt .btn .btn-list{
+    padding: 2px 8px;
+    border-radius: 1000px;
+    border: 1px solid #fff;
+}
+
+footer{background-color: #161616; color: #fff;}
+footer .wrap{
+    padding: 20px;
+    font-weight: 200;
+}
+footer .wrap ul{
+    font-size: 14px;
+    padding-bottom: 8px;
+}
+footer .wrap ul li{
+    padding-bottom: 8px;
+}
+footer .wrap .contact{
+    padding-bottom: 8px;
+    font-weight: 600;
+}
+footer .wrap .copy{
+    font-weight: 100;
+    font-size: 12px;
+}
+
+
+
