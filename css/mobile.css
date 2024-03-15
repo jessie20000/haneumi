@@ -195,8 +195,12 @@ header .wrap .ico-notion a img{
     margin-bottom: 20px;
     height: 400px;
 }
-.s3 .wrap .con img{
+/* .s3 .wrap .con:last-child img{
     transform: translate(-50%, -20%);
+} */
+
+.s3 .wrap .con img{
+    transform: translate(-40%, -30%);
 }
 .s3 .wrap .con .gr{
     position: absolute;

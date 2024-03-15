@@ -94,8 +94,10 @@
     .s3 .wrap .con img{
         width: 100%;
         object-fit: cover;
-        transform: unset;
+        transform: translate(0, -20%);
+
     }
+    
     .s4 .wrap .inner{
         display: grid;
         grid-template-columns: repeat(2,1fr);

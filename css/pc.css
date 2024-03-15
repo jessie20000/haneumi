@@ -121,7 +121,8 @@
     .s3 .wrap .con img{
         width: 100%;
         object-fit: cover;
-        transform: unset;
+        transform: translate(0, -20%);
+
     }
     .s3 .wrap .con .txt{
         padding-left: 32px;
