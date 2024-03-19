@@ -104,7 +104,7 @@
         align-items: start;
         gap: 12px;
     }
-    .s4 .wrap .inner .image a .txt .btn{
+    .s4 .wrap .inner .image .txt .btn{
         display: flex;
         align-items: center;
         justify-content: center;

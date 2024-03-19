@@ -141,16 +141,16 @@
         gap: 12px;
     }
 
-    .s4 .wrap .inner .image a .txt .name{
+    .s4 .wrap .inner .image .txt .name{
         font-weight: bolder;
         font-size: 20px;
         padding-bottom: 4px;
     }
-    .s4 .wrap .inner .image a .txt .date{
+    .s4 .wrap .inner .image .txt .date{
         font-weight: 100;
         padding-bottom: 12px;
     }
-    .s4 .wrap .inner .image a .txt .btn{
+    .s4 .wrap .inner .image .txt .btn{
         display: flex;
         align-items: center;
         justify-content: center;
@@ -158,7 +158,7 @@
         flex-wrap: wrap;
         font-size: 14px;
     }
-    .s4 .wrap .inner .image a .txt .btn .btn-list{
+    .s4 .wrap .inner .image .txt .btn .btn-list{
         padding: 2px 8px;
         border-radius: 1000px;
         border: 1px solid #fff;

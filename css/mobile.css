@@ -209,7 +209,7 @@ header .wrap .ico-notion a img{
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(to top, rgba(0,0,0,0.7), rgba(0,0,0,0));
+    background: linear-gradient(to top, rgba(0,0,0,0.8), rgba(0,0,0,0));
 }
 .s3 .wrap .con .txt{
     position: absolute;
@@ -269,11 +269,11 @@ header .wrap .ico-notion a img{
 
 
 }
-.s4 .wrap .inner .image a img{
+.s4 .wrap .inner .image img{
     width: 100%;
     border-radius: 12px;
 }
-.s4 .wrap .inner .image a .txt{
+.s4 .wrap .inner .image .txt{
     padding: 0 12px;
     position: absolute;
     top: 50%;
@@ -291,19 +291,19 @@ header .wrap .ico-notion a img{
     border-radius: 12px;
     opacity: 0;
 }
-.s4 .wrap .inner .image a .txt:hover{
+.s4 .wrap .inner .image .txt:hover{
     opacity: 1;
 }
-.s4 .wrap .inner .image a .txt .date{
+.s4 .wrap .inner .image .txt .date{
     font-weight: 100;
     padding-bottom: 12px;
 }
-.s4 .wrap .inner .image a .txt .name{
+.s4 .wrap .inner .image .txt .name{
     font-weight: bolder;
     font-size: 20px;
     padding-bottom: 4px;
 }
-.s4 .wrap .inner .image a .txt .btn{
+.s4 .wrap .inner .image .txt .btn{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -311,12 +311,17 @@ header .wrap .ico-notion a img{
     flex-wrap: wrap;
     font-size: 12px;
 }
-.s4 .wrap .inner .image a .txt .btn .btn-list{
+.s4 .wrap .inner .image .txt .btn .btn-list{
     padding: 2px 8px;
     border-radius: 1000px;
     border: 1px solid #fff;
 }
-
+.s4 .wrap .inner .image .txt .ico-notion{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 12px;
+}
 footer{background-color: #161616; color: #fff;}
 footer .wrap{
     padding: 20px;
